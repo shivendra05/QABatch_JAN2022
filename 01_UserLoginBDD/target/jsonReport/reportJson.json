@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 927700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyLogin.enter_url()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login1 With invalid user",
+        "description": "",
+        "id": "user-login;login1-with-invalid-user",
+        "after": [
+          {
+            "result": {
+              "duration": 115200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyLogin.close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 241886600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter url",
+            "match": {
+              "location": "MyLogin.enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter UserName and Password",
+            "match": {
+              "location": "MyLogin.enter_UserName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on submit button",
+            "match": {
+              "location": "MyLogin.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "print title",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "close browser",
+            "match": {
+              "location": "MyLogin.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 110100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyLogin.enter_url()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login2 With invalid user",
+        "description": "",
+        "id": "user-login;login2-with-invalid-user",
+        "after": [
+          {
+            "result": {
+              "duration": 227800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyLogin.close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 216600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter url",
+            "match": {
+              "location": "MyLogin.enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter UserName and Password",
+            "match": {
+              "location": "MyLogin.enter_UserName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on submit button",
+            "match": {
+              "location": "MyLogin.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "print title",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "close browser",
+            "match": {
+              "location": "MyLogin.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User Login",
+    "description": "",
+    "id": "user-login",
+    "keyword": "Feature",
+    "uri": "E:/GitHub/TL WorkSpace/01_UserLoginBDD/src/test/java/Featurefile/otherFeatures.Feature"
+  }
+]
