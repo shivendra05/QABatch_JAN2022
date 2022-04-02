@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-30T16:46:08 IST" name="Default suite" finished-at="2022-03-30T16:46:20 IST" duration-ms="11644">
+    <groups>
+    </groups>
+    <test started-at="2022-03-30T16:46:08 IST" name="Default test" finished-at="2022-03-30T16:46:20 IST" duration-ms="11644">
+      <class name="com.restbasics.TestPost">
+        <test-method signature="getCountryAll()[pri:0, instance:com.restbasics.TestPost@4c15e7fd]" started-at="2022-03-30T16:46:09 IST" name="getCountryAll" finished-at="2022-03-30T16:46:20 IST" duration-ms="11597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountryAll -->
+      </class> <!-- com.restbasics.TestPost -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
